@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" href="icon.png" />
+  <title>Squanch Engine v0.1</title>
+
+
+  <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+  <script type="text/jscript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>if (window.module) module = window.module;</script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body>
+
+  <div class="menu-container">
+
+  </div>
+
+  <div class="text-container">
+
+    <p class="text", id="text"/>
+
+  </div>
+
+  <div class="prompt-container">
+
+    <p class="text" id="prompt"/>
+
+  </div>
+
+  <div class="input-container">
+    <div class="button-container">
+
+      <input class="option-button" id="o1" type="button" value="Option 1" onclick="buttonfunc(1)" /><br />
+      <input class="option-button" id="o2"  type="button" value="Option 2" onclick="buttonfunc(2)" /><br />
+      <input class="option-button" id="o3"  type="button" value="Option 3" onclick="buttonfunc(3)" /><br />
+      <input class="option-button" id="o4"  type="button" value="Option 4" onclick="buttonfunc(4)" />
+
+    </div>
+
+    <div class="textfield-container">
+
+      <p class="text" id="question"/><br />
+      <input class="option-button" id="answer" type="text" placeholder=">"/>
+
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript" src="js/s-engine.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+
+</body>

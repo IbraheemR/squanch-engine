@@ -1,0 +1,125 @@
+@import "meta.css";
+
+.page-struct {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+
+  border-bottom: 0.6vh solid grey;
+}
+
+#menu.page-struct {
+  height: 10vh;
+}
+
+#body.page-struct {
+  height: 60vh;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  border-bottom: 0.6vh solid grey;
+}
+#body.text {
+  width: 98vw;
+
+  margin-bottom: 3%;
+}
+
+#prompt.page-struct {
+  height: 5vh;
+}
+
+#input.page-struct {
+  height: 25%;
+  border-bottom: none;
+
+}
+
+#input.page-struct > #buttons {
+  height: 100%;
+}
+#input.page-struct > #buttons > .button {
+  margin: 0;
+  border: none;
+  padding: 0;
+
+  padding-left: 1.5vh;
+
+  width: 100%;
+  height: 25%;
+
+  display: block;
+
+  cursor: pointer;
+  outline: none;
+
+  background-color: #222226;
+}
+#input.page-struct > #buttons > .button:hover {
+  background-color: #333336;
+}
+#input.page-struct > #buttons > .button:active {
+  background-color: #444446;
+}
+
+#input.page-struct > #textfield {
+  height: 100%;
+}
+
+#input.page-struct > #textfield > #input-top.buffer {
+  height: 15%
+}
+
+#input.page-struct > #textfield > #textfield-label.text {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  padding-left: 1.5vh;
+
+  height: 33%;
+  width: 100%;
+}
+
+#input.page-struct > #textfield > .textfield {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  padding-left: 2vh;
+
+  float: left;
+
+  height: 33%;
+  width: 85%;
+
+  outline: none;
+
+  background-color: #111116;
+}
+
+#input.page-struct > #textfield > .textfield-button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  border-left: 0.6vh solid #1A1A1F;
+
+  text-align: center;
+
+  height: 33%;
+  width: 15%;
+
+  outline: none;
+
+  background-color: #111116;
+}
+
+#input.page-struct > #textfield > .textfield-button:hover {
+  background-color: #333336;
+}
+#input.page-struct > #textfield > .textfield-button:active {
+  background-color: #444446;
+}

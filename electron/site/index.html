@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="icon.png" />
+    <title>Squanch Engine v1</title>
+
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>if (window.module) module = window.module;</script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div class="page-struct" id="menu">
+
+    </div>
+
+    <div class="page-struct" id="body">
+
+      <p class="text" id="body" ></p>
+
+    </div>
+
+    <div class="page-struct" id="prompt">
+      <p class="text" id="prompt" ></p>
+    </div>
+
+    <div class="page-struct" id="input">
+      <div class="input" id="buttons">
+        <input class="button" id="o1" type="button" value="1) Option 1" onclick="_buttonfunc(1)"/>
+        <input class="button" id="o2" type="button" value="2) Option 2" onclick="_buttonfunc(2)"/>
+        <input class="button" id="o3" type="button" value="3) Option 3" onclick="_buttonfunc(3)"/>
+        <input class="button" id="o4" type="button" value="4) Option 4" onclick="_buttonfunc(4)"/>
+
+      </div>
+      <div class="input" id="textfield">
+
+        <div class="buffer" id="input-top"></div>
+
+        <p class="text" id="textfield-label"></p>
+
+        <input class="textfield" type="text" placeholder=">" />
+        <input class="textfield-button" type="button" value="Submit" onclick="__answerhandler()"/>
+
+      </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="story/main.js"></script>
+
+  </body>
+</html>

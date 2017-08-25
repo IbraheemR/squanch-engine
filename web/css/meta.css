@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+red {color: #D61313;}
+orange {color: #FC8E30;}
+yellow{color: #FFFF94;}
+green {color: #17A317;}
+aqua {color: #1BBFE9;}
+blue {color: #4545E2;}
+purple {color: #AE38C9;}
+pink {color: #D977D9;}
+gold {color: #F5C449;}
+grey {color: #888;}
+brown {color: #C2590E;}
+
+* {
+    box-sizing: border-box;
+
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 4vh;
+
+    background-color: #222226;
+    margin: 0;
+
+    overflow: hidden;
+
+    text-align: left;
+}
+
+::-webkit-scrollbar {
+    width: 1.2vh;
+}
+
+::-webkit-scrollbar-track {
+  background: #333336
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CCC;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+
+  padding-left: 1.5vw;
+
+  white-space: pre-wrap;
+}

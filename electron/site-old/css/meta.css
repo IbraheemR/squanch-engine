@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 4vh;
+
+    background-color: #222;
+    margin: 0;
+
+    text-align: left;
+}
+
+:root {
+  --borderStuff: 0.6vh solid grey;
+}
+
+red {color: #D61313;}
+orange {color: #FC8E30;}
+yellow{color: #FFFF4F;}
+green {color: #17A317;}
+aqua {color: #1BBFE9;}
+blue {color: #4545E2;}
+purple {color: #AE38C9;}
+pink {color: #D977D9;}
+gold {color: #F5C449;}
+grey {color: #888;}
+brown {color: #C2590E;}

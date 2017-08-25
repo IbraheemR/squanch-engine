@@ -1,0 +1,42 @@
+.text-container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 60vh;
+
+
+
+
+  border-top: var(--borderStuff);
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+
+  padding-left: 1.5vh;
+}
+
+#text {
+  white-space: pre;
+
+  transform: rotate(180deg);
+  direction: ltr;
+}
+
+
+::-webkit-scrollbar {
+    width: 1.2vh;
+}
+
+::-webkit-scrollbar-track {
+  background: #333
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CCC;
+}
